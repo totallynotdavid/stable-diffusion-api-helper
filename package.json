@@ -1,0 +1,20 @@
+{
+  "name": "stability-ai-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "clean": "shx rm -rf node_modules"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "node-fetch": "^2.6.12"
+  },
+  "devDependencies": {
+    "shx": "^0.3.4"
+  }
+}
